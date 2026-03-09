@@ -8,3 +8,4 @@ Just run this script whenever new data is loaded and it processes the new unstru
 parse_doc_sample.ipynb notebook is implementation of how to parse, transform and chunk data. For transforming parsed json data to text i used llm and for chunking i used LangChain's RecursiveCharacterTextSplitter to split the text by the provided tokens. Chunked data is stored in the delta tables for later use.
 
 vector_search_test.ipynb notebook shows the demo of how to create embeddings and stored in vector index. Also different search types and re-ranking is implemented for demo purpose. (Databricks hosted embedding model is used to generate emneddings)
+Note: Before creating vector search index we need to have vector search endpoint created. vs_endpoint_test is created in this demo.
