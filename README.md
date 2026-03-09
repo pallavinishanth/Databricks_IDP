@@ -9,3 +9,5 @@ parse_doc_sample.ipynb notebook is implementation of how to parse, transform and
 
 vector_search_test.ipynb notebook shows the demo of how to create embeddings and stored in vector index. Also different search types and re-ranking is implemented for demo purpose. (Databricks hosted embedding model is used to generate emneddings)
 Note: Before creating vector search index we need to have vector search endpoint created. vs_endpoint_test is created in this demo.
+
+agent_test.ipynb is simple demo file that shows creatting agent and using our previously created vector search index as tool for retreival.
